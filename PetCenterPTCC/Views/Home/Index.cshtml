@@ -1,7 +1,6 @@
 ﻿<header class="header">
     <div class="container">
-        <h1 class="logo">Petcenter</h1>
-
+        <h1 class="logo">PetCenter - Tudo para o seu melhor amigo.</h1>
     </div>
 </header>
 
@@ -10,7 +9,38 @@
     <div class="container">
         <h2>Bem-vindo ao Petcenter</h2>
         <p>Cuidamos do seu pet com amor, carinho e profissionalismo. Tudo o que seu melhor amigo precisa está aqui!</p>
-        <a href="#servicos" class="btn">Conhecer Serviços</a>
+        <a class="btn" asp-area="" asp-controller="Servicos" asp-action="NossosServicos">Conhecer Serviços</a>
+    </div>
+</section>
+
+<section class="history-section" id="historia">
+    <div class="container">
+        <h3>Nossa Jornada Começou em 2025</h3>
+        <div class="history-content">
+            <div class="history-text">
+                <p>O PetCenter nasceu de um sonho, em **2025**, de criar um espaço onde o amor pelos animais fosse a força motriz de tudo. Fundado por um grupo de apaixonados por pets, nossa missão sempre foi ir além dos serviços básicos, oferecendo um verdadeiro lar para o cuidado e bem-estar de cada animal.</p>
+                <p>Começamos pequenos, com a visão de um atendimento personalizado e uma comunidade que unisse tutores e seus melhores amigos. Acreditamos que cada latido, miado ou ronronar é uma melodia, e que a felicidade de um pet reflete a alegria em nossos corações.</p>
+            </div>
+            <div class="history-image">
+                <img src="./images/fachada.jpg" alt="Fundação PetCenter em 2025">
+                <p class="image-caption">Nossa primeira loja, em 2025 - Um sonho que se tornou realidade!</p>
+            </div>
+        </div>
+
+        <div class="history-content reverse">
+            <div class="history-image">
+                <img src="./images/cuidando.jpg" alt="Veterinário cuidando de um pet">
+                <p class="image-caption">Dedicação e paixão em cada atendimento, desde o primeiro dia.</p>
+            </div>
+            <div class="history-text">
+                <p>Ao longo dos anos, crescemos, mas nossa essência permaneceu a mesma. Expandimos nossos serviços, investimos em tecnologia e treinamentos, sempre com o foco em oferecer o que há de melhor em banho e tosa, consultas veterinárias e uma seleção de produtos que garantem a saúde e a alegria dos seus companheiros.</p>
+                <p>Hoje, o PetCenter é mais do que uma loja ou uma clínica; é um ponto de encontro para quem ama e cuida. É a celebração da vida animal e o compromisso contínuo com a excelência. Junte-se a nós nesta jornada de amor e carinho!</p>
+            </div>
+        </div>
+        <div class="center-image">
+            <img src="./images/unidos.jpg" alt="Muitos pets felizes juntos">
+            <p class="image-caption">Milhares de pets felizes e famílias completas - Essa é a nossa história!</p>
+        </div>
     </div>
 </section>
 
@@ -33,6 +63,46 @@
             <div class="service-box">
                 <h4>Acessórios & Rações</h4>
                 <p>Os melhores produtos selecionados especialmente para seu pet.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="contact-section" id="contato">
+    <div class="container">
+        <h3>Fale Conosco | Onde Estamos</h3>
+        <div class="contact-grid">
+            <div class="contact-info">
+                <h4>🐾 Informações Essenciais</h4>
+                <div class="info-item">
+                    <span class="icon">📍</span>
+                    <p>
+                        Endereço: Rua Guaipá, 678, Vila Leopoldina, São Paulo - SP
+                    </p>
+                </div>
+                <div class="info-item">
+                    <span class="icon">📞</span>
+                    <p>
+                        Telefone: (11) 98845-6659<br>
+                        Fixo: (11) 9002-8922
+                    </p>
+                </div>
+                <div class="info-item">
+                    <span class="icon">⏰</span>
+                    <p>
+                        Horário de Funcionamento: <br>
+                        Segunda a Sábado: 8h às 18h<br>
+                        Domingos e Feriados: 9h às 13h (apenas emergências)
+                    </p>
+                </div>
+                <a class="btn primary-btn small-btn" href="mailto:contato@petcenter.com">Enviar E-mail</a>
+            </div>
+
+            <div class="contact-map">
+                <h4>🗺️ Nosso Local</h4>
+                <div class="map-placeholder">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6152.5211322328!2d-46.73277169098277!3d-23.521315877253258!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef8c040eab571%3A0xd053f5cbc9f751ea!2sR.%20Guaip%C3%A1%20-%20Vila%20Leopoldina%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2005089-001!5e0!3m2!1spt-BR!2sbr!4v1764772369124!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
             </div>
         </div>
     </div>

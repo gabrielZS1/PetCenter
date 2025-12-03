@@ -1,9 +1,12 @@
 wwwroot\css\CadastrarPet.css
 wwwroot\css\home.css
-wwwroot\css\site.css
+wwwroot\css\loja.css
 wwwroot\favicon.ico
 wwwroot\images\banner.jpg
+wwwroot\images\cuidando.jpg
+wwwroot\images\fachada.jpg
 wwwroot\images\fundo.jpg
+wwwroot\images\unidos.jpg
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
@@ -65,10 +68,10 @@ wwwroot\lib\jquery\dist\jquery.slim.js
 wwwroot\lib\jquery\dist\jquery.slim.min.js
 wwwroot\lib\jquery\dist\jquery.slim.min.map
 wwwroot\lib\jquery\LICENSE.txt
-wwwroot\css\loja.css
+wwwroot\css\site.css
 C:\Users\Gabriel\Desktop\PetCenterPTCC\PetCenterPTCC\wwwroot\css\CadastrarPet.css
 C:\Users\Gabriel\Desktop\PetCenterPTCC\PetCenterPTCC\wwwroot\css\home.css
-C:\Users\Gabriel\Desktop\PetCenterPTCC\PetCenterPTCC\wwwroot\css\site.css
+C:\Users\Gabriel\Desktop\PetCenterPTCC\PetCenterPTCC\wwwroot\css\loja.css
 C:\Users\Gabriel\Desktop\PetCenterPTCC\PetCenterPTCC\wwwroot\favicon.ico
 C:\Users\Gabriel\Desktop\PetCenterPTCC\PetCenterPTCC\wwwroot\js\site.js
 C:\Users\Gabriel\Desktop\PetCenterPTCC\PetCenterPTCC\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
@@ -130,4 +133,4 @@ C:\Users\Gabriel\Desktop\PetCenterPTCC\PetCenterPTCC\wwwroot\lib\jquery\dist\jqu
 C:\Users\Gabriel\Desktop\PetCenterPTCC\PetCenterPTCC\wwwroot\lib\jquery\dist\jquery.slim.min.js
 C:\Users\Gabriel\Desktop\PetCenterPTCC\PetCenterPTCC\wwwroot\lib\jquery\dist\jquery.slim.min.map
 C:\Users\Gabriel\Desktop\PetCenterPTCC\PetCenterPTCC\wwwroot\lib\jquery\LICENSE.txt
-C:\Users\Gabriel\Desktop\PetCenterPTCC\PetCenterPTCC\wwwroot\css\loja.css
+C:\Users\Gabriel\Desktop\PetCenterPTCC\PetCenterPTCC\wwwroot\css\site.css

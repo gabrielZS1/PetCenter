@@ -3,8 +3,8 @@
 
 body {
     background-image: url('/images/fundo.jpg');
-    background-size: cover; /* opcional */
-    background-position: center; /* opcional */
+    background-size: cover;
+    background-position: center; 
 }
 
 .form-wrapper {
