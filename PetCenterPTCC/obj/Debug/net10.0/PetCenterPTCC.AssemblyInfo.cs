@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PetCenterPTCC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4152a243fbe4c9376e1180f0763f8a5ec01ad922")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+69fcbc4294e9880a6d359832a7ec6a3b84839c86")]
 [assembly: System.Reflection.AssemblyProductAttribute("PetCenterPTCC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PetCenterPTCC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
