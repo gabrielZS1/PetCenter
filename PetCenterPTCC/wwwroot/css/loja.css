@@ -31,15 +31,15 @@ body {
 h2 {
     text-align: center;
     margin-bottom: 30px;
-    color: var(--cor-principal); /* Títulos em Laranja */
+    color: var(--cor-principal);
     font-size: 2.2em;
 }
 
-/* Estilo padrão para botões de ação */
+
 .btn {
     display: inline-block;
     padding: 12px 25px;
-    background-color: var(--cor-principal); /* Botões Principais em Laranja */
+    background-color: var(--cor-principal);
     color: var(--cor-texto-claro);
     text-decoration: none;
     border: none;
@@ -49,16 +49,15 @@ h2 {
     transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
-    .btn:hover {
-        background-color: #f1960f;
-        color: #fff;
-        transform: translateY(-2px);
-    }
+.btn:hover {
+    background-color: #f1960f;
+    color: #fff;
+    transform: translateY(-2px);
+}
 
 
-/* =============================== */
-/* 2. HEADER E NAVEGAÇÃO           */
-/* =============================== */
+
+/* Header */
 
 .heed {
     background-color: #fff; 
@@ -73,14 +72,14 @@ h2 {
 }
 
 .logo h1 {
-    color:#ff8a00; /* Logo em Laranja */
+    color:#ff8a00; 
     font-size: 1.8em;
 }
 
 .carrinho {
     font-size: 1.1em;
     font-weight: bold;
-    color: var(--cor-principal); /* Carrinho em Laranja */
+    color: var(--cor-principal); 
     cursor: pointer;
     padding: 8px 15px;
     border: 1px solid var(--cor-principal);
@@ -88,14 +87,13 @@ h2 {
     transition: background-color 0.3s;
 }
 
-    .carrinho:hover {
-        background-color: var(--cor-secundaria);
-    }
+.carrinho:hover {
+    background-color: var(--cor-secundaria);
+}
 
 
-/* =============================== */
-/* 3. BANNER PRINCIPAL             */
-/* =============================== */
+
+/* banner */
 
 .banner {
     background: linear-gradient(to right, #ff8a00cc, #ffc800cc), url(../images/banner03.jpg);
@@ -106,22 +104,21 @@ h2 {
     color: var(--branco);
 }
 
-    .banner h2 {
-        color: var(--cor-texto-claro); /* Texto do banner continua branco */
-        font-size: 3em;
-        margin-bottom: 10px;
-    }
+.banner h2 {
+    color: var(--cor-texto-claro); 
+    font-size: 3em;
+    margin-bottom: 10px;
+}
 
-    .banner p {
-        font-size: 1.5em;
-        margin-bottom: 30px;
-        color: #fff;
-    }
+.banner p {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+    color: #fff;
+}
 
 
-/* =============================== */
-/* 4. SEÇÃO PRODUTOS (GRID)        */
-/* =============================== */
+
+/* Produtos */
 
 .controles-produtos {
     display: flex;
@@ -146,7 +143,7 @@ h2 {
 }
 
 .produto-card {
-    background-color: var(--cor-fundo); /* Fundo Branco */
+    background-color: var(--cor-fundo);
     border-radius: 10px;
     box-shadow: var(--sombra-card);
     overflow: hidden;
@@ -155,10 +152,10 @@ h2 {
     transition: all 0.3s ease;
 }
 
-    .produto-card:hover {
-        box-shadow: var(--sombra-hover);
-        transform: translateY(-5px);
-    }
+.produto-card:hover {
+    box-shadow: var(--sombra-hover);
+    transform: translateY(-5px);
+}
 
 .produto-img {
     height: 350px;
@@ -168,15 +165,15 @@ h2 {
     align-items: center;
     margin-bottom: 15px;
     border-radius: 8px;
-    overflow: hidden; /* IMPORTANTE — impede imagem de escapar do bloco */
+    overflow: hidden; 
 }
 
-    .produto-img img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover; /* A imagem preenche de forma elegante */
-        border-radius: 8px;
-    }
+.produto-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    border-radius: 8px;
+}
 
 .produto-card h3 {
     color: var(--cor-texto-escuro);
@@ -191,19 +188,19 @@ h2 {
 }
 
 .rating {
-    color: #FFC107; /* Amarelo Estrela (mantido para avaliações) */
+    color: #FFC107; 
     font-size: 0.9em;
     margin-bottom: 10px;
 }
 
 .preco {
     font-size: 1.5em;
-    color: var(--cor-principal); /* Preço em Laranja */
+    color: var(--cor-principal); 
     font-weight: bold;
     margin-bottom: 15px;
 }
 
-/* Estilo para Oferta */
+
 .preco-antigo {
     text-decoration: line-through;
     color: #999;
@@ -212,12 +209,12 @@ h2 {
 }
 
 .preco-oferta {
-    color: #008000; /* Verde escuro (mantido para destacar o desconto) */
+    color: #008000; 
 }
 
 .btn-adicionar {
     padding: 10px 20px;
-    background-color: var(--cor-principal); /* Botão de adicionar em Laranja */
+    background-color: var(--cor-principal); 
     color: var(--cor-texto-claro);
     border: none;
     border-radius: 5px;
@@ -226,25 +223,25 @@ h2 {
     transition: background-color 0.3s ease;
 }
 
-    .btn-adicionar:hover {
-        background-color: #CC7A00;
-    }
+.btn-adicionar:hover {
+    background-color: #CC7A00;
+}
 
 
-/* =============================== */
-/* 5. SEÇÃO SERVIÇOS               */
-/* =============================== */
+
+/* Serviços */
+
 
 .servicos-section {
-    background-color: var(--cor-secundaria); /* Fundo Laranja Claro */
+    background-color: var(--cor-secundaria); 
     padding: 60px 0;
     text-align: center;
     border-top: 1px solid var(--cor-principal);
 }
 
-    .servicos-section h2 {
-        color: var(--cor-texto-escuro);
-    }
+.servicos-section h2 {
+    color: var(--cor-texto-escuro);
+}
 
 .servicos-list ul {
     list-style: none;
@@ -274,9 +271,9 @@ h2 {
     transition: background-color 0.3s;
 }
 
-    .btn-agendamento:hover {
-        background-color: #CC7A00;
-    }
+.btn-agendamento:hover {
+    background-color: #CC7A00;
+}
 
 
 
@@ -308,4 +305,4 @@ h2 {
     .barra-busca, .filtro-categoria {
         max-width: 100%;
     }
-
+}

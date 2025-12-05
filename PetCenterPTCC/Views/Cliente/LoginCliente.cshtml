@@ -1,5 +1,6 @@
 ﻿@{
     ViewData["Title"] = "Login";
+    ViewData["BodyClass"] = "bg-fundo";
 }
 <div class="center-container">
     <div class="form-wrapper">
@@ -17,6 +18,13 @@
             <p class="cadastre">
                 Não possui conta? <a asp-controller="Cliente" asp-action="CadastroCliente">Cadastre-se</a>
             </p>
+
+            @if (ViewBag.Erro != null)
+            {
+                <script>
+                    alert("@ViewBag.Erro");
+                </script>
+            }
 
         </form>
     </div>

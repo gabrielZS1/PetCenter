@@ -7,9 +7,10 @@
     <script type="importmap"></script>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/PetCenterPTCC.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/PetCenterPTCC.styles.css" asp-append-version="false" />
+    @RenderSection("Styles", required: false)
 </head>
-<body>
+<body class="@ViewData["BodyClass"]">
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm custom-nav border-bottom box-shadow mb-3">
             <div class="container-fluid">
@@ -49,24 +50,9 @@
 
     <footer class="ftr">
         <div class="containerr">
-            &copy; 2025 - PetCenter -  <a class="nav-link" asp-controller="FaleConosco" asp-action="faleConosco">Fale Conosco</a>
+            &copy; 2025 - PetCenter -  <a  asp-controller="FaleConosco" asp-action="faleConosco">Fale Conosco</a>
         </div>
     </footer>
-
-
-
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
-    @await RenderSectionAsync("Scripts", required: false)
-</body>
-</html>
-
-
-
-
-    
-
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

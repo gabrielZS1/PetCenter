@@ -1,14 +1,13 @@
 ﻿
-﻿ /* Variáveis de Cores */
-:root {
-    --primary-color: #FF8C00; /* Laranja Vívido */
-    --secondary-color: #FFFFFF; /* Branco */
-    --text-color: #333; /* Cor de texto escura para contraste */
-    --light-bg: #FFF7EE; /* Laranja bem clarinho para fundo */
+﻿:root {
+    --primary-color: #FF8C00; 
+    --secondary-color: #FFFFFF; 
+    --text-color: #333; 
+    --light-bg: #FFF7EE; 
     --dark-text: #222;
 }
 
-/* Reset básico e tipografia */
+
 * {
     margin: 0;
     padding: 0;
@@ -22,7 +21,7 @@ body {
     line-height: 1.6;
 }
 
-/* Cabeçalho */
+
 header {
     background-color: var(--primary-color);
     color: var(--secondary-color);
@@ -31,11 +30,10 @@ header {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-    header h1 {
-        font-size: 2.5em;
-    }
+header h1 {
+    font-size: 2.5em;
+}
 
-/* Conteúdo Principal */
 .container {
     max-width: 900px;
     margin: 40px auto;
@@ -43,11 +41,11 @@ header {
     text-align: center;
 }
 
-    .container h2 {
-        color: var(--primary-color);
-        margin-bottom: 30px;
-        font-size: 1.8em;
-    }
+.container h2 {
+    color: var(--primary-color);
+    margin-bottom: 30px;
+    font-size: 1.8em;
+}
 
 /* Cards de Contato */
 .contact-info {
@@ -55,7 +53,7 @@ header {
     justify-content: center;
     gap: 30px;
     margin-bottom: 40px;
-    flex-wrap: wrap; /* Para telas menores */
+    flex-wrap: wrap;
 }
 
 .contact-card {
@@ -65,30 +63,30 @@ header {
     padding: 30px;
     width: 350px;
     text-align: center;
-    text-decoration: none; /* Remove sublinhado do link */
+    text-decoration: none;
     color: var(--dark-text);
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
-    .contact-card:hover {
-        transform: translateY(-5px); /* Efeito de elevação */
-        box-shadow: 0 8px 15px rgba(255, 140, 0, 0.3);
-    }
+.contact-card:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 8px 15px rgba(255, 140, 0, 0.3);
+}
 
-    .contact-card i {
-        font-size: 3em;
-        color: var(--primary-color);
-        margin-bottom: 10px;
-    }
+.contact-card i {
+    font-size: 3em;
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
 
-    .contact-card h3 {
-        font-size: 1.5em;
-        margin-bottom: 10px;
-    }
+.contact-card h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
 
-    .contact-card p {
-        margin-bottom: 15px;
-    }
+.contact-card p {
+    margin-bottom: 15px;
+}
 
 .detail-text {
     display: block;
@@ -98,6 +96,7 @@ header {
 }
 
 /* Notas de Rodapé */
+
 .note {
     font-style: italic;
     color: var(--text-color);
@@ -116,3 +115,4 @@ header {
         width: 90%;
         max-width: 400px;
     }
+}

@@ -1,6 +1,5 @@
 ﻿body {
-    background-image: url('/images/fundo.jpg');
-    background-size: 384vw
+    background-color: rgba(0, 0, 0, 0.12);
 }
 
 .agendar-page {
@@ -8,141 +7,141 @@
     padding: 40px 20px;
     display: flex;
     justify-content: center;
-    background-image: url('/images/fundo.jpg');
+
 }
 
-    .agendar-page .container {
-        width: 100%;
-        max-width: 820px;
-        background: #ffffff;
-        padding: 40px 50px;
-        border-radius: 20px;
-        box-shadow: 0 10px 35px rgba(0, 0, 0, 0.12);
-        animation: fadeIn 0.6s ease forwards;
-        opacity: 0;
-    }
+.agendar-page .container {
+    width: 100%;
+    max-width: 820px;
+    background: #ffffff;
+    padding: 40px 50px;
+    border-radius: 20px;
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.12);
+    animation: fadeIn 0.6s ease forwards;
+    opacity: 0;
+}
 
 
-    /* Header */
-    .agendar-page .header {
-        text-align: center;
-        margin-bottom: 30px;
-    }
+/* Header */
+.agendar-page .header {
+    text-align: center;
+    margin-bottom: 30px;
+}
 
-        .agendar-page .header h1 {
-            font-size: 32px;
-            font-weight: 800;
-            color: #ff7720;
-            margin-bottom: 8px;
-        }
+.agendar-page .header h1 {
+    font-size: 32px;
+    font-weight: 800;
+    color: #ff7720;
+    margin-bottom: 8px;
+}
 
-        .agendar-page .header p {
-            color: #555;
-        }
+.agendar-page .header p {
+    color: #555;
+}
 
-    /* Títulos */
-    .agendar-page .agendamento-form h2 {
-        margin-top: 40px;
-        margin-bottom: 10px;
-        font-size: 22px;
-        color: #222;
-        font-weight: 700;
-        border-left: 5px solid #ff7720;
-        padding-left: 10px;
-    }
+/* Títulos */
+.agendar-page .agendamento-form h2 {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-size: 22px;
+    color: #222;
+    font-weight: 700;
+    border-left: 5px solid #ff7720;
+    padding-left: 10px;
+}
 
-    /* Campos */
-    .agendar-page .form-group {
-        margin-bottom: 22px;
-        display: flex;
-        flex-direction: column;
-    }
+/* Campos */
+.agendar-page .form-group {
+    margin-bottom: 22px;
+    display: flex;
+    flex-direction: column;
+}
 
-    .agendar-page label {
-        font-weight: 600;
-        color: #444;
-        margin-bottom: 6px;
-    }
+.agendar-page label {
+    font-weight: 600;
+    color: #444;
+    margin-bottom: 6px;
+}
 
-    .agendar-page input,
-    .agendar-page select,
-    .agendar-page textarea {
-        padding: 12px 14px;
-        font-size: 15px;
-        border-radius: 10px;
-        border: 1.7px solid #ddd;
-        background: #fafafa;
-        transition: 0.25s;
-    }
+.agendar-page input,
+.agendar-page select,
+.agendar-page textarea {
+    padding: 12px 14px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: 1.7px solid #ddd;
+    background: #fafafa;
+    transition: 0.25s;
+}
 
-        .agendar-page input:focus,
-        .agendar-page select:focus,
-        .agendar-page textarea:focus {
-            border-color: #ff7720;
-            background: #fff;
-            box-shadow: 0 0 8px rgba(255, 119, 32, 0.35);
-        }
+.agendar-page input:focus,
+.agendar-page select:focus,
+.agendar-page textarea:focus {
+        border-color: #ff7720;
+        background: #fff;
+        box-shadow: 0 0 8px rgba(255, 119, 32, 0.35);
+}
 
-    /* Opções de Serviço */
-    .agendar-page .service-options {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-        gap: 15px;
-    }
+/* Opções de Serviço */
+.agendar-page .service-options {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 15px;
+}
 
-        .agendar-page .service-options label {
-            padding: 12px 15px;
-            border-radius: 12px;
-            border: 2px solid #e5e5e5;
-            cursor: pointer;
-            text-align: center;
-            font-weight: 600;
-            background: #fff;
-            transition: 0.25s;
-        }
+.agendar-page .service-options label {
+    padding: 12px 15px;
+    border-radius: 12px;
+    border: 2px solid #e5e5e5;
+    cursor: pointer;
+    text-align: center;
+    font-weight: 600;
+    background: #fff;
+    transition: 0.25s;
+}
 
-        .agendar-page .service-options input[type="radio"] {
-            display: none;
-        }
+.agendar-page .service-options input[type="radio"] {
+    display: none;
+}
 
-        .agendar-page .service-options input:checked + label {
-            border-color: #ff7720;
-            background: #fff4ea;
-            color: #c8550b;
-            box-shadow: 0 0 10px rgba(255, 119, 32, 0.25);
-        }
+.agendar-page .service-options input:checked + label {
+    border-color: #ff7720;
+    background: #fff4ea;
+    color: #c8550b;
+    box-shadow: 0 0 10px rgba(255, 119, 32, 0.25);
+}
 
-    /* Link cadastro */
+/* Link cadastro */
 
-    .agendar-page .link-cadastro p {
-        font-size: 14px;
-        color: #666;
-    }
+.agendar-page .link-cadastro p {
+    font-size: 14px;
+    color: #666;
+}
 
-    .agendar-page .link-cadastro a {
-        color: #ff7720;
-        text-decoration: none;
-        font-weight: 600;
-    }
+.agendar-page .link-cadastro a {
+    color: #ff7720;
+    text-decoration: none;
+    font-weight: 600;
+}
 
-    /* Botão */
-    .agendar-page .btn-submit {
-        width: 100%;
-        padding: 16px;
-        background: linear-gradient(45deg, #ff7720, #ff8f4b);
-        border: none;
-        color: white;
-        font-size: 18px;
-        font-weight: 700;
-        border-radius: 12px;
-        cursor: pointer;
-        transition: 0.3s;
-        margin-top: 20px;
-    }
+/* Botão */
+.agendar-page .btn-submit {
+    width: 100%;
+    padding: 16px;
+    background: linear-gradient(45deg, #ff7720, #ff8f4b);
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 20px;
+}
 
-        .agendar-page .btn-submit:hover {
-            transform: translateY(-3px);
-        }
+.agendar-page .btn-submit:hover {
+     transform: translateY(-3px);
+}
 
 
 /* Animação */

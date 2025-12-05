@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("db3bd4ee-13a6-4266-8e15-522f2724347d")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("PetCenterPTCC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+446bbe03eaa28ec362218618e8b5d04774f19405")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fdb82c56cb6c2e2683787ccb4714c8905a798f69")]
 [assembly: System.Reflection.AssemblyProductAttribute("PetCenterPTCC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PetCenterPTCC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

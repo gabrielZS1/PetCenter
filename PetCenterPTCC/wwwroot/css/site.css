@@ -18,7 +18,16 @@ html {
 }
 
 body {
+    background-image
 }
+
+.bg-fundo {
+    background-image: url('/images/fnd.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 
 .form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
     color: var(--bs-secondary-color);
@@ -48,14 +57,14 @@ body {
     z-index: 1000;
 }
 
-    .custom-nav .navbar-brand {
-        background-color: var(--primary-orange) !important;
-        color: var(--secondary-white) !important;
-        font-weight: bold;
-        font-size: 1.5em;
-        transition: color 0.3s;
-        margin-left: 68px;
-    }
+.custom-nav .navbar-brand {
+    background-color: var(--primary-orange) !important;
+    color: var(--secondary-white) !important;
+    font-weight: bold;
+    font-size: 1.5em;
+    transition: color 0.3s;
+    margin-left: 68px;
+}
 
 @media (max-width: 900px) {
     .custom-nav .navbar-brand {
@@ -77,22 +86,22 @@ body {
     gap: 20px;
 }
 
-    .custom-nav .navbar-nav .nav-link:hover {
-        background-color: var(--hover-orange) !important;
-        color: var(--secondary-white) !important;
-    }
+.custom-nav .navbar-nav .nav-link:hover {
+    background-color: var(--hover-orange) !important;
+    color: var(--secondary-white) !important;
+}
 
 
 footer {
     background-color: #ff7500;
-    height: 10vh;
-    color: white;
+    width: 100%;
+    color: #ffffff;
     text-align: center;
-    padding-top: 19px;
-    margin-top: -25px;
+    padding: 20px ;
+
 }
 
 footer a {
-    color: #8a5400;
+    color: #fad7a0;
     text-decoration: none;
 }
