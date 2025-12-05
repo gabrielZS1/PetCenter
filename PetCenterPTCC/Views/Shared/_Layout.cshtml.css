@@ -39,7 +39,5 @@ button.accept-policy {
 }
 
 .footer {
-    margin-top: 100px;
-    padding: 40px 20px;
-    position: relative;
+    background-color: #ff6a00;
 }

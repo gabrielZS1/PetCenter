@@ -19,69 +19,69 @@ build_property.TargetFrameworkIdentifier = .NETCoreApp
 build_property.TargetFrameworkVersion = v10.0
 build_property.RootNamespace = PetCenterPTCC
 build_property.RootNamespace = PetCenterPTCC
-build_property.ProjectDir = C:\Users\74840\source\repos\PetCenter2.0\PetCenterPTCC\
+build_property.ProjectDir = C:\Users\Gabriel\source\repos\PetCenter\PetCenterPTCC\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\74840\source\repos\PetCenter2.0\PetCenterPTCC
+build_property.MSBuildProjectDirectory = C:\Users\Gabriel\source\repos\PetCenter\PetCenterPTCC
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 10.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/74840/source/repos/PetCenter2.0/PetCenterPTCC/Views/Agenda/NossaAgenda.cshtml]
+[C:/Users/Gabriel/source/repos/PetCenter/PetCenterPTCC/Views/Agenda/NossaAgenda.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWdlbmRhXE5vc3NhQWdlbmRhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/74840/source/repos/PetCenter2.0/PetCenterPTCC/Views/Cliente/CadastroCliente.cshtml]
+[C:/Users/Gabriel/source/repos/PetCenter/PetCenterPTCC/Views/Cliente/CadastroCliente.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxDYWRhc3Ryb0NsaWVudGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/74840/source/repos/PetCenter2.0/PetCenterPTCC/Views/Cliente/LoginCliente.cshtml]
+[C:/Users/Gabriel/source/repos/PetCenter/PetCenterPTCC/Views/Cliente/LoginCliente.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxMb2dpbkNsaWVudGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/74840/source/repos/PetCenter2.0/PetCenterPTCC/Views/FaleConosco/faleConosco.cshtml]
+[C:/Users/Gabriel/source/repos/PetCenter/PetCenterPTCC/Views/FaleConosco/faleConosco.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFsZUNvbm9zY29cZmFsZUNvbm9zY28uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/74840/source/repos/PetCenter2.0/PetCenterPTCC/Views/Home/Index.cshtml]
+[C:/Users/Gabriel/source/repos/PetCenter/PetCenterPTCC/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/74840/source/repos/PetCenter2.0/PetCenterPTCC/Views/Home/Privacy.cshtml]
+[C:/Users/Gabriel/source/repos/PetCenter/PetCenterPTCC/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/74840/source/repos/PetCenter2.0/PetCenterPTCC/Views/Loja/LojaPet.cshtml]
+[C:/Users/Gabriel/source/repos/PetCenter/PetCenterPTCC/Views/Loja/LojaPet.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9qYVxMb2phUGV0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/74840/source/repos/PetCenter2.0/PetCenterPTCC/Views/Pet/CadastrarPet.cshtml]
+[C:/Users/Gabriel/source/repos/PetCenter/PetCenterPTCC/Views/Pet/CadastrarPet.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGV0XENhZGFzdHJhclBldC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/74840/source/repos/PetCenter2.0/PetCenterPTCC/Views/Servicos/NossosServicos.cshtml]
+[C:/Users/Gabriel/source/repos/PetCenter/PetCenterPTCC/Views/Servicos/NossosServicos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Vydmljb3NcTm9zc29zU2Vydmljb3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/74840/source/repos/PetCenter2.0/PetCenterPTCC/Views/Shared/Error.cshtml]
+[C:/Users/Gabriel/source/repos/PetCenter/PetCenterPTCC/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/74840/source/repos/PetCenter2.0/PetCenterPTCC/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Gabriel/source/repos/PetCenter/PetCenterPTCC/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/74840/source/repos/PetCenter2.0/PetCenterPTCC/Views/_ViewImports.cshtml]
+[C:/Users/Gabriel/source/repos/PetCenter/PetCenterPTCC/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/74840/source/repos/PetCenter2.0/PetCenterPTCC/Views/_ViewStart.cshtml]
+[C:/Users/Gabriel/source/repos/PetCenter/PetCenterPTCC/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/74840/source/repos/PetCenter2.0/PetCenterPTCC/Views/Shared/_Layout.cshtml]
+[C:/Users/Gabriel/source/repos/PetCenter/PetCenterPTCC/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-gx9qvsrcx0

@@ -1,12 +1,8 @@
-﻿/* =============================== */
-/* 1. VARIÁVEIS E ESTILOS GERAIS  */
-/* =============================== */
-
-:root {
-    --cor-principal: #FF9900; /* Laranja Vibrante - Cor de Destaque */
-    --cor-secundaria: #FFCC66; /* Laranja Claro/Pêssego - Para fundos suaves */
-    --cor-fundo: #FFFFFF; /* Fundo Branco Limpo */
-    --cor-texto-escuro: #333333; /* Texto Principal */
+﻿:root {
+    --cor-principal: #FF9900;
+    --cor-secundaria: #FFCC66;
+    --cor-fundo: #FFFFFF;
+    --cor-texto-escuro: #333333; 
     --cor-texto-claro: #FFFFFF;
     --sombra-card: 0 4px 8px rgba(0, 0, 0, 0.1);
     --sombra-hover: 0 8px 16px rgba(0, 0, 0, 0.2);
@@ -54,7 +50,8 @@ h2 {
 }
 
     .btn:hover {
-        background-color: #CC7A00; /* Laranja mais escuro no hover */
+        background-color: #f1960f;
+        color: #fff;
         transform: translateY(-2px);
     }
 
@@ -64,7 +61,7 @@ h2 {
 /* =============================== */
 
 .heed {
-    background-color: var(--cor-fundo); /* Fundo Branco */
+    background-color: #fff; 
     padding: 15px 5%;
     display: flex;
     justify-content: space-between;
@@ -76,7 +73,7 @@ h2 {
 }
 
 .logo h1 {
-    color: var(--cor-principal); /* Logo em Laranja */
+    color:#ff8a00; /* Logo em Laranja */
     font-size: 1.8em;
 }
 
@@ -282,67 +279,6 @@ h2 {
     }
 
 
-/* =============================== */
-/* 6. RODAPÉ (FOOTER)              */
-/* =============================== */
-
-footer {
-    background-color: var(--cor-texto-escuro); /* Rodapé Escuro (Contraste) */
-    color: #CCC;
-    padding: 40px 0 20px;
-}
-
-.container-footer {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding-bottom: 20px;
-}
-
-.col-footer {
-    width: 100%;
-    max-width: 250px;
-    margin-bottom: 20px;
-}
-
-    .col-footer h4 {
-        color: var(--cor-principal); /* Títulos do Rodapé em Laranja */
-        margin-bottom: 15px;
-        font-size: 1.2em;
-    }
-
-    .col-footer ul {
-        list-style: none;
-    }
-
-        .col-footer ul li a {
-            color: #CCC;
-            text-decoration: none;
-            line-height: 2;
-            transition: color 0.3s;
-        }
-
-            .col-footer ul li a:hover {
-                color: var(--cor-principal); /* Hover em Laranja */
-            }
-
-.social-icons a {
-    color: var(--cor-principal); /* Ícones Sociais em Laranja */
-    margin-right: 10px;
-    font-size: 1em;
-    text-decoration: none;
-}
-
-.copyright {
-    text-align: center;
-    border-top: 1px solid #444;
-    padding-top: 20px;
-    margin-top: 20px;
-    font-size: 0.9em;
-}
 
 
 /* ---------------- Responsividade ---------------- */
@@ -373,13 +309,3 @@ footer {
         max-width: 100%;
     }
 
-    .container-footer {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .col-footer {
-        text-align: center;
-        max-width: 100%;
-    }
-}

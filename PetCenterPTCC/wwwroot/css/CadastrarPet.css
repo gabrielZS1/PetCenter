@@ -1,14 +1,14 @@
-﻿@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+﻿﻿@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
 
 
 body {
     background-image: url('/images/fundo.jpg');
     background-size: cover;
-    background-position: center; 
-
+    background-position: center;
 }
 
-.form-wrapper {
+.formulario-pet {
+    
     background: #ffffff;
     padding: 40px 30px;
     border-radius: 12px;
@@ -22,7 +22,7 @@ body {
 }
 
 
-.styled-form h1 {
+.styled-formulario h1 {
     margin-bottom: 30px;
     font-weight: 600;
     font-size: 2rem;
@@ -64,7 +64,6 @@ body {
     transition: background-color 0.4s ease;
     letter-spacing: 0.05em;
     margin-top: 10px;
-    
 }
 
     .button:hover {
@@ -85,22 +84,20 @@ body {
     transition: background-color 0.4s ease;
     letter-spacing: 0.05em;
     margin-top: 10px;
-
 }
 
-.buttonn:hover {
-    background-color: #e05d00;
-}
+    .buttonn:hover {
+        background-color: #e05d00;
+    }
 
 .cadastre {
     margin-top: 20px;
-
 }
 
 a {
     text-decoration: none;
     color: #ff6a00;
-} 
+}
 
 .mensagem {
     margin-top: 25px;
@@ -121,92 +118,10 @@ a {
     color: #004bb5;
 }
 
-footer {
-    background-color: #ff8c00); /* Rodapé Escuro (Contraste) */
-    color: #CCC;
-    padding: 40px 0 20px;
-    z-index: 1000;
-    margin-top: -10px;
-}
 
-.container-footer {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding-bottom: 20px;
-}
 
-.col-footer {
-    width: 100%;
-    max-width: 250px;
-    margin-bottom: 20px;
-}
 
-    .col-footer h4 {
-        color: var(--cor-principal); /* Títulos do Rodapé em Laranja */
-        margin-bottom: 15px;
-        font-size: 1.2em;
-    }
 
-    .col-footer ul {
-        list-style: none;
-    }
-
-        .col-footer ul li a {
-            color: #CCC;
-            text-decoration: none;
-            line-height: 2;
-            transition: color 0.3s;
-        }
-
-            .col-footer ul li a:hover {
-                color: var(--cor-principal); /* Hover em Laranja */
-            }
-
-.social-icons a {
-    color: var(--cor-principal); /* Ícones Sociais em Laranja */
-    margin-right: 10px;
-    font-size: 1em;
-    text-decoration: none;
-}
-
-.copyright {
-    text-align: center;
-    border-top: 1px solid #444;
-    padding-top: 20px;
-    margin-top: 20px;
-    font-size: 0.9em;
-}
-
-/* Form-wrapper menor, mas ainda confortável */
-.form-wrapper {
-    max-width: 360px; /* leve redução do original (400px) */
-    padding: 32px 28px; /* menor que 40/30, mas ainda espaçoso */
-    border-radius: 12px;
-    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.6);
-    margin: 2vw auto;
-}
-
-/* Inputs e botões ajustados proporcionalmente */
-.input {
-    padding: 12px 14px;
-    font-size: 1rem;
-}
-
-.button,
-.buttonn {
-    padding: 12px 0;
-    font-size: 1.05rem;
-}
-
-/* Título do formulário */
-.styled-form h1 {
-    font-size: 1.8rem;
-    margin-bottom: 25px;
-}
 
 /* ---------------- Responsividade ---------------- */
 

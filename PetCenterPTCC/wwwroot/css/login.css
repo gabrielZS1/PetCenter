@@ -1,3 +1,4 @@
+﻿
 ﻿@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
 
 
@@ -18,7 +19,6 @@ body {
     align-items: center;
     justify-content: center;
     margin: 2vw auto;
-
 }
 
 
@@ -87,9 +87,9 @@ body {
     text-align: center;
 }
 
-    .buttonn:hover {
-        background-color: #e05d00;
-    }
+.buttonn:hover {
+    background-color: #e05d00;
+}
 
 .cadastre {
     margin-top: 20px;
@@ -176,5 +176,3 @@ a {
         font-size: 1.4rem;
     }
 }
-
-

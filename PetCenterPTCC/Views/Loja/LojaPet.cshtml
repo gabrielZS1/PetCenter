@@ -21,7 +21,7 @@
         <div class="grid-produtos">
             <div class="produto-card oferta">
                 <div class="produto-img">
-                    <img src="~/images/comedouro.jpg"/>
+                    <img src="~/images/comedouro.jpg" />
                 </div>
                 <h3>Comedouro Duplo Ergonômico</h3>
                 <p class="descricao">Ideal para água e ração. Antiderrapante.</p>
@@ -49,7 +49,7 @@
         <div class="grid-produtos">
             <div class="produto-card" data-categoria="caes">
                 <div class="produto-img">
-                    <img src="~/images/ração.jpg"/>
+                    <img src="~/images/ração.jpg" />
                 </div>
                 <h3>Ração Super Premium</h3>
                 <p class="descricao">Sabor carne, alta digestibilidade.</p>
@@ -103,26 +103,27 @@
                     <li><span class="icone">🩺</span> Consultas Veterinárias (Profissionais qualificados)</li>
                     <li><span class="icone">🏠</span> Hospedagem Pet (Conforto e segurança)</li>
                 </ul>
-                <a href="#" class="btn-agendamento">Agendar Serviço</a>
+                <a class="btn-agendamento" asp-controller="Agenda" asp-action="NossaAgenda">Agendar Serviços</a>
             </div>
         </div>
     </section>
+
+    <script>
+        // Apenas um exemplo de como você pode adicionar funcionalidade com JavaScript
+        const btnAdicionar = document.querySelectorAll('.btn-adicionar');
+        const contadorCarrinho = document.getElementById('contador-carrinho');
+        let totalCarrinho = 0;
+
+        btnAdicionar.forEach(btn => {
+            btn.addEventListener('click', () => {
+                totalCarrinho++;
+                contadorCarrinho.textContent = totalCarrinho;
+                alert('Produto adicionado ao carrinho!');
+            });
+        });
+    </script>
 
 </main>
 
 
 
-<script>
-    // Apenas um exemplo de como você pode adicionar funcionalidade com JavaScript
-    const btnAdicionar = document.querySelectorAll('.btn-adicionar');
-    const contadorCarrinho = document.getElementById('contador-carrinho');
-    let totalCarrinho = 0;
-
-    btnAdicionar.forEach(btn => {
-        btn.addEventListener('click', () => {
-            totalCarrinho++;
-            contadorCarrinho.textContent = totalCarrinho;
-            alert('Produto adicionado ao carrinho!');
-        });
-    });
-</script>

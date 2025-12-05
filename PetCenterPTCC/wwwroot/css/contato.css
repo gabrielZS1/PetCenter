@@ -1,4 +1,5 @@
-﻿/* Variáveis de Cores */
+﻿
+﻿ /* Variáveis de Cores */
 :root {
     --primary-color: #FF8C00; /* Laranja Vívido */
     --secondary-color: #FFFFFF; /* Branco */
@@ -115,4 +116,3 @@ header {
         width: 90%;
         max-width: 400px;
     }
-

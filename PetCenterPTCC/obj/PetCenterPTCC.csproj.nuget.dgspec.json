@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\74840\\source\\repos\\PetCenter2.0\\PetCenterPTCC\\PetCenterPTCC.csproj": {}
+    "C:\\Users\\Gabriel\\source\\repos\\PetCenter\\PetCenterPTCC\\PetCenterPTCC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\74840\\source\\repos\\PetCenter2.0\\PetCenterPTCC\\PetCenterPTCC.csproj": {
+    "C:\\Users\\Gabriel\\source\\repos\\PetCenter\\PetCenterPTCC\\PetCenterPTCC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\74840\\source\\repos\\PetCenter2.0\\PetCenterPTCC\\PetCenterPTCC.csproj",
+        "projectUniqueName": "C:\\Users\\Gabriel\\source\\repos\\PetCenter\\PetCenterPTCC\\PetCenterPTCC.csproj",
         "projectName": "PetCenterPTCC",
-        "projectPath": "C:\\Users\\74840\\source\\repos\\PetCenter2.0\\PetCenterPTCC\\PetCenterPTCC.csproj",
-        "packagesPath": "C:\\Users\\74840\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\74840\\source\\repos\\PetCenter2.0\\PetCenterPTCC\\obj\\",
+        "projectPath": "C:\\Users\\Gabriel\\source\\repos\\PetCenter\\PetCenterPTCC\\PetCenterPTCC.csproj",
+        "packagesPath": "C:\\Users\\Gabriel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gabriel\\source\\repos\\PetCenter\\PetCenterPTCC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\74840\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Gabriel\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

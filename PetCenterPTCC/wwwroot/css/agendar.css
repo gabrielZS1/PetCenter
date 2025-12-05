@@ -1,13 +1,14 @@
-﻿/* Tudo fica isolado dentro de .agendar-page */
-
-body {
-    background: linear-gradient(135deg, #fff7f2, #ffe1cc);
+﻿body {
+    background-image: url('/images/fundo.jpg');
+    background-size: 384vw
 }
+
 .agendar-page {
+    margin-top: 10px;
     padding: 40px 20px;
-    background: linear-gradient(135deg, #fff7f2, #ffe1cc);
     display: flex;
     justify-content: center;
+    background-image: url('/images/fundo.jpg');
 }
 
     .agendar-page .container {
@@ -21,6 +22,129 @@ body {
         opacity: 0;
     }
 
+
+    /* Header */
+    .agendar-page .header {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+        .agendar-page .header h1 {
+            font-size: 32px;
+            font-weight: 800;
+            color: #ff7720;
+            margin-bottom: 8px;
+        }
+
+        .agendar-page .header p {
+            color: #555;
+        }
+
+    /* Títulos */
+    .agendar-page .agendamento-form h2 {
+        margin-top: 40px;
+        margin-bottom: 10px;
+        font-size: 22px;
+        color: #222;
+        font-weight: 700;
+        border-left: 5px solid #ff7720;
+        padding-left: 10px;
+    }
+
+    /* Campos */
+    .agendar-page .form-group {
+        margin-bottom: 22px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .agendar-page label {
+        font-weight: 600;
+        color: #444;
+        margin-bottom: 6px;
+    }
+
+    .agendar-page input,
+    .agendar-page select,
+    .agendar-page textarea {
+        padding: 12px 14px;
+        font-size: 15px;
+        border-radius: 10px;
+        border: 1.7px solid #ddd;
+        background: #fafafa;
+        transition: 0.25s;
+    }
+
+        .agendar-page input:focus,
+        .agendar-page select:focus,
+        .agendar-page textarea:focus {
+            border-color: #ff7720;
+            background: #fff;
+            box-shadow: 0 0 8px rgba(255, 119, 32, 0.35);
+        }
+
+    /* Opções de Serviço */
+    .agendar-page .service-options {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+        gap: 15px;
+    }
+
+        .agendar-page .service-options label {
+            padding: 12px 15px;
+            border-radius: 12px;
+            border: 2px solid #e5e5e5;
+            cursor: pointer;
+            text-align: center;
+            font-weight: 600;
+            background: #fff;
+            transition: 0.25s;
+        }
+
+        .agendar-page .service-options input[type="radio"] {
+            display: none;
+        }
+
+        .agendar-page .service-options input:checked + label {
+            border-color: #ff7720;
+            background: #fff4ea;
+            color: #c8550b;
+            box-shadow: 0 0 10px rgba(255, 119, 32, 0.25);
+        }
+
+    /* Link cadastro */
+
+    .agendar-page .link-cadastro p {
+        font-size: 14px;
+        color: #666;
+    }
+
+    .agendar-page .link-cadastro a {
+        color: #ff7720;
+        text-decoration: none;
+        font-weight: 600;
+    }
+
+    /* Botão */
+    .agendar-page .btn-submit {
+        width: 100%;
+        padding: 16px;
+        background: linear-gradient(45deg, #ff7720, #ff8f4b);
+        border: none;
+        color: white;
+        font-size: 18px;
+        font-weight: 700;
+        border-radius: 12px;
+        cursor: pointer;
+        transition: 0.3s;
+        margin-top: 20px;
+    }
+
+        .agendar-page .btn-submit:hover {
+            transform: translateY(-3px);
+        }
+
+
 /* Animação */
 @keyframes fadeIn {
     to {
@@ -33,129 +157,6 @@ body {
         transform: translateY(15px);
     }
 }
-
-/* Header */
-.agendar-page .header {
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-    .agendar-page .header h1 {
-        font-size: 32px;
-        font-weight: 800;
-        color: #ff7720;
-        margin-bottom: 8px;
-    }
-
-    .agendar-page .header p {
-        color: #555;
-    }
-
-/* Títulos */
-.agendar-page .agendamento-form h2 {
-    margin-top: 40px;
-    margin-bottom: 10px;
-    font-size: 22px;
-    color: #222;
-    font-weight: 700;
-    border-left: 5px solid #ff7720;
-    padding-left: 10px;
-}
-
-/* Campos */
-.agendar-page .form-group {
-    margin-bottom: 22px;
-    display: flex;
-    flex-direction: column;
-}
-
-.agendar-page label {
-    font-weight: 600;
-    color: #444;
-    margin-bottom: 6px;
-}
-
-.agendar-page input,
-.agendar-page select,
-.agendar-page textarea {
-    padding: 12px 14px;
-    font-size: 15px;
-    border-radius: 10px;
-    border: 1.7px solid #ddd;
-    background: #fafafa;
-    transition: 0.25s;
-}
-
-    .agendar-page input:focus,
-    .agendar-page select:focus,
-    .agendar-page textarea:focus {
-        border-color: #ff7720;
-        background: #fff;
-        box-shadow: 0 0 8px rgba(255, 119, 32, 0.35);
-    }
-
-/* Opções de Serviço */
-.agendar-page .service-options {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-    gap: 15px;
-}
-
-    .agendar-page .service-options label {
-        padding: 12px 15px;
-        border-radius: 12px;
-        border: 2px solid #e5e5e5;
-        cursor: pointer;
-        text-align: center;
-        font-weight: 600;
-        background: #fff;
-        transition: 0.25s;
-    }
-
-    .agendar-page .service-options input[type="radio"] {
-        display: none;
-    }
-
-    .agendar-page .service-options input:checked + label {
-        border-color: #ff7720;
-        background: #fff4ea;
-        color: #c8550b;
-        box-shadow: 0 0 10px rgba(255, 119, 32, 0.25);
-    }
-
-/* Link cadastro */
-
-
-.agendar-page .link-cadastro p {
-    font-size: 14px;
-    color: #666;
-
-}
-
-.agendar-page .link-cadastro a {
-    color: #ff7720;
-    text-decoration: none;
-    font-weight: 600;
-}
-
-/* Botão */
-.agendar-page .btn-submit {
-    width: 100%;
-    padding: 16px;
-    background: linear-gradient(45deg, #ff7720, #ff8f4b);
-    border: none;
-    color: white;
-    font-size: 18px;
-    font-weight: 700;
-    border-radius: 12px;
-    cursor: pointer;
-    transition: 0.3s;
-    margin-top: 20px;
-}
-
-    .agendar-page .btn-submit:hover {
-        transform: translateY(-3px);
-    }
 
 /* Responsivo */
 @media (max-width: 640px) {

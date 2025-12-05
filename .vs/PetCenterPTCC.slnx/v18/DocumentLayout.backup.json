@@ -1,66 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Gabriel\\Desktop\\PetCenterPTCC\\",
+  "WorkspaceRootPath": "C:\\Users\\Gabriel\\source\\repos\\PetCenter\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9ABDEA47-FDC2-E162-A300-AA3CD6987B58}|PetCenterPTCC\\PetCenterPTCC.csproj|c:\\users\\gabriel\\desktop\\petcenterptcc\\petcenterptcc\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9ABDEA47-FDC2-E162-A300-AA3CD6987B58}|PetCenterPTCC\\PetCenterPTCC.csproj|solutionrelative:petcenterptcc\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9ABDEA47-FDC2-E162-A300-AA3CD6987B58}|PetCenterPTCC\\PetCenterPTCC.csproj|c:\\users\\gabriel\\desktop\\petcenterptcc\\petcenterptcc\\views\\faleconosco\\faleconosco.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9ABDEA47-FDC2-E162-A300-AA3CD6987B58}|PetCenterPTCC\\PetCenterPTCC.csproj|solutionrelative:petcenterptcc\\views\\faleconosco\\faleconosco.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9ABDEA47-FDC2-E162-A300-AA3CD6987B58}|PetCenterPTCC\\PetCenterPTCC.csproj|c:\\users\\gabriel\\desktop\\petcenterptcc\\petcenterptcc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9ABDEA47-FDC2-E162-A300-AA3CD6987B58}|PetCenterPTCC\\PetCenterPTCC.csproj|solutionrelative:petcenterptcc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9ABDEA47-FDC2-E162-A300-AA3CD6987B58}|PetCenterPTCC\\PetCenterPTCC.csproj|c:\\users\\gabriel\\desktop\\petcenterptcc\\petcenterptcc\\controllers\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9ABDEA47-FDC2-E162-A300-AA3CD6987B58}|PetCenterPTCC\\PetCenterPTCC.csproj|solutionrelative:petcenterptcc\\controllers\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9ABDEA47-FDC2-E162-A300-AA3CD6987B58}|PetCenterPTCC\\PetCenterPTCC.csproj|c:\\users\\gabriel\\desktop\\petcenterptcc\\petcenterptcc\\views\\cliente\\logincliente.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{9ABDEA47-FDC2-E162-A300-AA3CD6987B58}|PetCenterPTCC\\PetCenterPTCC.csproj|c:\\users\\gabriel\\source\\repos\\petcenter\\petcenterptcc\\views\\cliente\\logincliente.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9ABDEA47-FDC2-E162-A300-AA3CD6987B58}|PetCenterPTCC\\PetCenterPTCC.csproj|solutionrelative:petcenterptcc\\views\\cliente\\logincliente.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9ABDEA47-FDC2-E162-A300-AA3CD6987B58}|PetCenterPTCC\\PetCenterPTCC.csproj|c:\\users\\gabriel\\desktop\\petcenterptcc\\petcenterptcc\\views\\cliente\\cadastrocliente.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{9ABDEA47-FDC2-E162-A300-AA3CD6987B58}|PetCenterPTCC\\PetCenterPTCC.csproj|c:\\users\\gabriel\\source\\repos\\petcenter\\petcenterptcc\\views\\cliente\\cadastrocliente.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9ABDEA47-FDC2-E162-A300-AA3CD6987B58}|PetCenterPTCC\\PetCenterPTCC.csproj|solutionrelative:petcenterptcc\\views\\cliente\\cadastrocliente.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9ABDEA47-FDC2-E162-A300-AA3CD6987B58}|PetCenterPTCC\\PetCenterPTCC.csproj|c:\\users\\gabriel\\desktop\\petcenterptcc\\petcenterptcc\\wwwroot\\css\\contato.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{9ABDEA47-FDC2-E162-A300-AA3CD6987B58}|PetCenterPTCC\\PetCenterPTCC.csproj|solutionrelative:petcenterptcc\\wwwroot\\css\\contato.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9ABDEA47-FDC2-E162-A300-AA3CD6987B58}|PetCenterPTCC\\PetCenterPTCC.csproj|c:\\users\\gabriel\\desktop\\petcenterptcc\\petcenterptcc\\controllers\\faleconosco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9ABDEA47-FDC2-E162-A300-AA3CD6987B58}|PetCenterPTCC\\PetCenterPTCC.csproj|solutionrelative:petcenterptcc\\controllers\\faleconosco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9ABDEA47-FDC2-E162-A300-AA3CD6987B58}|PetCenterPTCC\\PetCenterPTCC.csproj|c:\\users\\gabriel\\desktop\\petcenterptcc\\petcenterptcc\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{9ABDEA47-FDC2-E162-A300-AA3CD6987B58}|PetCenterPTCC\\PetCenterPTCC.csproj|solutionrelative:petcenterptcc\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9ABDEA47-FDC2-E162-A300-AA3CD6987B58}|PetCenterPTCC\\PetCenterPTCC.csproj|c:\\users\\gabriel\\desktop\\petcenterptcc\\petcenterptcc\\wwwroot\\css\\agendar.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{9ABDEA47-FDC2-E162-A300-AA3CD6987B58}|PetCenterPTCC\\PetCenterPTCC.csproj|solutionrelative:petcenterptcc\\wwwroot\\css\\agendar.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9ABDEA47-FDC2-E162-A300-AA3CD6987B58}|PetCenterPTCC\\PetCenterPTCC.csproj|c:\\users\\gabriel\\desktop\\petcenterptcc\\petcenterptcc\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{9ABDEA47-FDC2-E162-A300-AA3CD6987B58}|PetCenterPTCC\\PetCenterPTCC.csproj|solutionrelative:petcenterptcc\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9ABDEA47-FDC2-E162-A300-AA3CD6987B58}|PetCenterPTCC\\PetCenterPTCC.csproj|c:\\users\\gabriel\\desktop\\petcenterptcc\\petcenterptcc\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{9ABDEA47-FDC2-E162-A300-AA3CD6987B58}|PetCenterPTCC\\PetCenterPTCC.csproj|solutionrelative:petcenterptcc\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9ABDEA47-FDC2-E162-A300-AA3CD6987B58}|PetCenterPTCC\\PetCenterPTCC.csproj|c:\\users\\gabriel\\desktop\\petcenterptcc\\petcenterptcc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9ABDEA47-FDC2-E162-A300-AA3CD6987B58}|PetCenterPTCC\\PetCenterPTCC.csproj|solutionrelative:petcenterptcc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9ABDEA47-FDC2-E162-A300-AA3CD6987B58}|PetCenterPTCC\\PetCenterPTCC.csproj|c:\\users\\gabriel\\desktop\\petcenterptcc\\petcenterptcc\\views\\agenda\\nossaagenda.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9ABDEA47-FDC2-E162-A300-AA3CD6987B58}|PetCenterPTCC\\PetCenterPTCC.csproj|solutionrelative:petcenterptcc\\views\\agenda\\nossaagenda.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9ABDEA47-FDC2-E162-A300-AA3CD6987B58}|PetCenterPTCC\\PetCenterPTCC.csproj|c:\\users\\gabriel\\desktop\\petcenterptcc\\petcenterptcc\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9ABDEA47-FDC2-E162-A300-AA3CD6987B58}|PetCenterPTCC\\PetCenterPTCC.csproj|solutionrelative:petcenterptcc\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,188 +22,29 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Cliente.cs",
-              "DocumentMoniker": "C:\\Users\\Gabriel\\Desktop\\PetCenterPTCC\\PetCenterPTCC\\Controllers\\Cliente.cs",
-              "RelativeDocumentMoniker": "PetCenterPTCC\\Controllers\\Cliente.cs",
-              "ToolTip": "C:\\Users\\Gabriel\\Desktop\\PetCenterPTCC\\PetCenterPTCC\\Controllers\\Cliente.cs",
-              "RelativeToolTip": "PetCenterPTCC\\Controllers\\Cliente.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T08:47:40.181Z",
+              "DocumentIndex": 1,
+              "Title": "CadastroCliente.cshtml",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\source\\repos\\PetCenter\\PetCenterPTCC\\Views\\Cliente\\CadastroCliente.cshtml",
+              "RelativeDocumentMoniker": "PetCenterPTCC\\Views\\Cliente\\CadastroCliente.cshtml",
+              "ToolTip": "C:\\Users\\Gabriel\\source\\repos\\PetCenter\\PetCenterPTCC\\Views\\Cliente\\CadastroCliente.cshtml",
+              "RelativeToolTip": "PetCenterPTCC\\Views\\Cliente\\CadastroCliente.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-05T05:32:16.822Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Privacy.cshtml",
-              "DocumentMoniker": "C:\\Users\\Gabriel\\Desktop\\PetCenterPTCC\\PetCenterPTCC\\Views\\Home\\Privacy.cshtml",
-              "RelativeDocumentMoniker": "PetCenterPTCC\\Views\\Home\\Privacy.cshtml",
-              "ToolTip": "C:\\Users\\Gabriel\\Desktop\\PetCenterPTCC\\PetCenterPTCC\\Views\\Home\\Privacy.cshtml*",
-              "RelativeToolTip": "PetCenterPTCC\\Views\\Home\\Privacy.cshtml*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-04T08:47:19.694Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "LoginCliente.cshtml",
-              "DocumentMoniker": "C:\\Users\\Gabriel\\Desktop\\PetCenterPTCC\\PetCenterPTCC\\Views\\Cliente\\LoginCliente.cshtml",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\source\\repos\\PetCenter\\PetCenterPTCC\\Views\\Cliente\\LoginCliente.cshtml",
               "RelativeDocumentMoniker": "PetCenterPTCC\\Views\\Cliente\\LoginCliente.cshtml",
-              "ToolTip": "C:\\Users\\Gabriel\\Desktop\\PetCenterPTCC\\PetCenterPTCC\\Views\\Cliente\\LoginCliente.cshtml",
+              "ToolTip": "C:\\Users\\Gabriel\\source\\repos\\PetCenter\\PetCenterPTCC\\Views\\Cliente\\LoginCliente.cshtml",
               "RelativeToolTip": "PetCenterPTCC\\Views\\Cliente\\LoginCliente.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-04T08:45:12.83Z",
+              "WhenOpened": "2025-12-05T05:31:41.072Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "contato.css",
-              "DocumentMoniker": "C:\\Users\\Gabriel\\Desktop\\PetCenterPTCC\\PetCenterPTCC\\wwwroot\\css\\contato.css",
-              "RelativeDocumentMoniker": "PetCenterPTCC\\wwwroot\\css\\contato.css",
-              "ToolTip": "C:\\Users\\Gabriel\\Desktop\\PetCenterPTCC\\PetCenterPTCC\\wwwroot\\css\\contato.css",
-              "RelativeToolTip": "PetCenterPTCC\\wwwroot\\css\\contato.css",
-              "ViewState": "AgIAAFwAAAAAAAAAAAAuwGgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-12-04T08:43:32.953Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "faleConosco.cshtml",
-              "DocumentMoniker": "C:\\Users\\Gabriel\\Desktop\\PetCenterPTCC\\PetCenterPTCC\\Views\\FaleConosco\\faleConosco.cshtml",
-              "RelativeDocumentMoniker": "PetCenterPTCC\\Views\\FaleConosco\\faleConosco.cshtml",
-              "ToolTip": "C:\\Users\\Gabriel\\Desktop\\PetCenterPTCC\\PetCenterPTCC\\Views\\FaleConosco\\faleConosco.cshtml",
-              "RelativeToolTip": "PetCenterPTCC\\Views\\FaleConosco\\faleConosco.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAYwCcAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-04T08:42:54.993Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "FaleConosco.cs",
-              "DocumentMoniker": "C:\\Users\\Gabriel\\Desktop\\PetCenterPTCC\\PetCenterPTCC\\Controllers\\FaleConosco.cs",
-              "RelativeDocumentMoniker": "PetCenterPTCC\\Controllers\\FaleConosco.cs",
-              "ToolTip": "C:\\Users\\Gabriel\\Desktop\\PetCenterPTCC\\PetCenterPTCC\\Controllers\\FaleConosco.cs",
-              "RelativeToolTip": "PetCenterPTCC\\Controllers\\FaleConosco.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T08:41:56.856Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "agendar.css",
-              "DocumentMoniker": "C:\\Users\\Gabriel\\Desktop\\PetCenterPTCC\\PetCenterPTCC\\wwwroot\\css\\agendar.css",
-              "RelativeDocumentMoniker": "PetCenterPTCC\\wwwroot\\css\\agendar.css",
-              "ToolTip": "C:\\Users\\Gabriel\\Desktop\\PetCenterPTCC\\PetCenterPTCC\\wwwroot\\css\\agendar.css",
-              "RelativeToolTip": "PetCenterPTCC\\wwwroot\\css\\agendar.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-12-04T08:34:29.46Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Gabriel\\Desktop\\PetCenterPTCC\\PetCenterPTCC\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "PetCenterPTCC\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Gabriel\\Desktop\\PetCenterPTCC\\PetCenterPTCC\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "PetCenterPTCC\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACsAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-04T08:33:00.665Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "_Layout.cshtml.css",
-              "DocumentMoniker": "C:\\Users\\Gabriel\\Desktop\\PetCenterPTCC\\PetCenterPTCC\\Views\\Shared\\_Layout.cshtml.css",
-              "RelativeDocumentMoniker": "PetCenterPTCC\\Views\\Shared\\_Layout.cshtml.css",
-              "ToolTip": "C:\\Users\\Gabriel\\Desktop\\PetCenterPTCC\\PetCenterPTCC\\Views\\Shared\\_Layout.cshtml.css",
-              "RelativeToolTip": "PetCenterPTCC\\Views\\Shared\\_Layout.cshtml.css",
-              "ViewState": "AgIAABcAAAAAAAAAAAAAwCkAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-12-04T08:28:07.783Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\Gabriel\\Desktop\\PetCenterPTCC\\PetCenterPTCC\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "PetCenterPTCC\\wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\Gabriel\\Desktop\\PetCenterPTCC\\PetCenterPTCC\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "PetCenterPTCC\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAAFcAAAAAAAAAAAAAAGkAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-12-04T07:44:41.913Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CadastroCliente.cshtml",
-              "DocumentMoniker": "C:\\Users\\Gabriel\\Desktop\\PetCenterPTCC\\PetCenterPTCC\\Views\\Cliente\\CadastroCliente.cshtml",
-              "RelativeDocumentMoniker": "PetCenterPTCC\\Views\\Cliente\\CadastroCliente.cshtml",
-              "ToolTip": "C:\\Users\\Gabriel\\Desktop\\PetCenterPTCC\\PetCenterPTCC\\Views\\Cliente\\CadastroCliente.cshtml",
-              "RelativeToolTip": "PetCenterPTCC\\Views\\Cliente\\CadastroCliente.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-04T06:53:20.717Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "login.css",
-              "DocumentMoniker": "C:\\Users\\Gabriel\\Desktop\\PetCenterPTCC\\PetCenterPTCC\\wwwroot\\css\\login.css",
-              "RelativeDocumentMoniker": "PetCenterPTCC\\wwwroot\\css\\login.css",
-              "ToolTip": "C:\\Users\\Gabriel\\Desktop\\PetCenterPTCC\\PetCenterPTCC\\wwwroot\\css\\login.css",
-              "RelativeToolTip": "PetCenterPTCC\\wwwroot\\css\\login.css",
-              "ViewState": "AgIAAGgAAAAAAAAAAAAAAHsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-12-04T06:51:54.79Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Gabriel\\Desktop\\PetCenterPTCC\\PetCenterPTCC\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "PetCenterPTCC\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Gabriel\\Desktop\\PetCenterPTCC\\PetCenterPTCC\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "PetCenterPTCC\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAYwFcAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-04T05:33:44.397Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\Gabriel\\Desktop\\PetCenterPTCC\\PetCenterPTCC\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "PetCenterPTCC\\Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\Gabriel\\Desktop\\PetCenterPTCC\\PetCenterPTCC\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "PetCenterPTCC\\Views\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-04T05:21:45.626Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "NossaAgenda.cshtml",
-              "DocumentMoniker": "C:\\Users\\Gabriel\\Desktop\\PetCenterPTCC\\PetCenterPTCC\\Views\\Agenda\\NossaAgenda.cshtml",
-              "RelativeDocumentMoniker": "PetCenterPTCC\\Views\\Agenda\\NossaAgenda.cshtml",
-              "ToolTip": "C:\\Users\\Gabriel\\Desktop\\PetCenterPTCC\\PetCenterPTCC\\Views\\Agenda\\NossaAgenda.cshtml",
-              "RelativeToolTip": "PetCenterPTCC\\Views\\Agenda\\NossaAgenda.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-04T05:15:47.169Z"
             }
           ]
         }

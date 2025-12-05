@@ -1,4 +1,5 @@
-﻿.container {
+﻿
+﻿.container-slogan {
     width: 90%;
     max-width: 1200px;
     margin: auto;
@@ -13,7 +14,7 @@
 
 
 
-.header {
+.container-slogan {
     margin-top: -20px;
     background-color: var(--branco);
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
@@ -21,12 +22,12 @@
     padding: 15px 0;
 }
 
-    .header .container {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin-left: 5vw
-    }
+.container-slogan .slogan {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5vw
+}
 
 .logo {
     font-size: 28px;
@@ -47,14 +48,14 @@
     transition: 0.3s;
 }
 
-.nav a:hover {
-     color: var(--laranja);
-}
+    .nav a:hover {
+        color: var(--laranja);
+    }
 
 /* ----------------------------*/
 /*            HERO             */
 /* ----------------------------*/
-.hero {
+.banner-menu {
     background: linear-gradient(to right, #ff8a00cc, #ffc800cc), url(../images/banner02.jpg);
     background-size: cover;
     background-position: center;
@@ -63,12 +64,12 @@
     color: var(--branco);
 }
 
-.hero h2 {
-    font-size: 40px;
-    margin-bottom: 15px; 
-}
+    .banner-menu h2 {
+        font-size: 40px;
+        margin-bottom: 15px;
+    }
 
-    .hero p {
+    .banner-menu p {
         font-size: 18px;
         max-width: 700px;
         margin: 0 auto 30px auto;
@@ -85,10 +86,10 @@
     transition: 0.3s;
 }
 
-.btn:hover {
-    background-color: var(--laranjaEscuro);
-    color: var(--branco);
-}
+    .btn:hover {
+        background-color: var(--laranjaEscuro);
+        color: var(--branco);
+    }
 
 .services {
     padding: 80px 0;
@@ -96,11 +97,11 @@
     margin_top: -100px;
 }
 
-.services h3 {
-    font-size: 32px;
-    margin-bottom: 40px;
-    color: var(--laranjaEscuro);
-}
+    .services h3 {
+        font-size: 32px;
+        margin-bottom: 40px;
+        color: var(--laranjaEscuro);
+    }
 
 .service-grid {
     display: grid;
@@ -117,71 +118,57 @@
     text-align: left;
 }
 
-.service-box:hover {
-    transform: translateY(-7px);
-    box-shadow: 0 6px 20px rgba(0,0,0,0.12);
-}
+    .service-box:hover {
+        transform: translateY(-7px);
+        box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+    }
 
-.service-box h4 {
-    font-size: 22px;
-    margin-bottom: 10px;
-    color: var(--laranja);
-}
+    .service-box h4 {
+        font-size: 22px;
+        margin-bottom: 10px;
+        color: var(--laranja);
+    }
 
-.service-box p {
-    font-size: 15px;
-    color: #555;
-}
+    .service-box p {
+        font-size: 15px;
+        color: #555;
+    }
 
-
-footer {
-    background-color: var(--cinzaEscuro);
-    padding: 18px 0;
-    text-align: center;
-    color: var(--branco);
-    font-size: 14px;
-    margin-top: 50px;
-}
 
 
 /* RESPONSIVIDADE */
 
 @media (max-width: 768px) {
-    .hero h2 {
+    .banner-menu h2 {
         font-size: 32px;
     }
 
-    .hero p {
+    .banner-menu p {
         font-size: 16px;
     }
 
-    .nav ul {
-        gap: 15px;
-    }
 }
 
 @media (max-width: 500px) {
-    .hero {
-        padding: 70px 0;
+    .container-slogan {
+        padding: 25px 0;
     }
 
     .logo {
-        font-size: 22px;
+        font-size: 17px;
+     
     }
 
-    .nav {
-        display: none;
-    }
 }
 
-.history-section {
+.historia-section {
     background-color: var(--secondary-white); /* Fundo branco */
     padding: 80px 0;
     text-align: center;
     margin-bottom: -5vw;
 }
 
-    .history-section h3 {
+    .historia-section h3 {
         font-family: var(--font-heading);
         font-size: 2.8em;
         color: var(--primary-orange);
@@ -190,7 +177,7 @@ footer {
     }
 
         /* Linha decorativa abaixo do título da história */
-        .history-section h3::after {
+        .historia-section h3::after {
             content: '';
             display: block;
             width: 80px;
@@ -200,7 +187,7 @@ footer {
             border-radius: 2px;
         }
 
-.history-content {
+.historia-content {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -208,26 +195,26 @@ footer {
     text-align: left;
 }
 
-    .history-content.reverse {
+    .historia-content.reverse {
         flex-direction: row-reverse; /* Inverte a ordem para um layout mais dinâmico */
     }
 
-.history-text {
+.historia-text {
     flex: 1;
     min-width: 300px;
 }
 
-    .history-text p {
+    .historia-text p {
         font-size: 1.15em;
         margin-bottom: 20px;
         color: var(--text-color-dark);
     }
 
-        .history-text p strong {
+        .historia-text p strong {
             color: var(--primary-orange);
         }
 
-.history-image {
+.historia-image {
     flex: 1;
     min-width: 300px;
     max-width: 400px; /* Limita a largura da imagem */
@@ -236,7 +223,7 @@ footer {
     overflow: hidden; /* Garante que a imagem respeite o border-radius */
 }
 
-    .history-image img {
+    .historia-image img {
         width: 100%;
         height: auto;
         display: block;
@@ -278,27 +265,27 @@ footer {
 
 /* --- Responsividade para a Seção História --- */
 @media (max-width: 992px) {
-    .history-content {
+    .historia-content {
         flex-direction: column; /* Empilha o texto e a imagem em telas menores */
         gap: 30px;
     }
 
-        .history-content.reverse {
+        .historia-content.reverse {
             flex-direction: column; /* Mantém empilhado mesmo com a classe reverse */
         }
 
-    .history-image {
+    .historia-image {
         max-width: 100%; /* Imagem ocupa a largura total disponível */
     }
 }
 
 @media (max-width: 768px) {
-    .history-section h3 {
+    .historia-section h3 {
         font-size: 2.2em;
         margin-bottom: 40px;
     }
 
-    .history-text p {
+    .historia-text p {
         font-size: 1em;
     }
 
@@ -351,7 +338,7 @@ footer {
     border-radius: 12px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
     text-align: left;
-    margin-top:2vw;
+    margin-top: 2vw;
 }
 
     .contact-info h4 {
