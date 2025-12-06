@@ -13,7 +13,7 @@ using System.Reflection;
 
 [assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("db3bd4ee-13a6-4266-8e15-522f2724347d")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("PetCenterPTCC")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a6a25656f5358d3a88450dd8a66a7bdb66957e17")]
 [assembly: System.Reflection.AssemblyProductAttribute("PetCenterPTCC")]
