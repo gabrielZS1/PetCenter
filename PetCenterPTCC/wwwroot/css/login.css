@@ -24,12 +24,11 @@
 
 
 
-.styled-form h1 {
+.nm {
     margin-bottom: 30px;
     font-weight: 600;
     font-size: 2rem;
     color: #333333;
-    text-align: center;
     letter-spacing: 0.05em;
 }
 

@@ -56,57 +56,6 @@ namespace PetCenterPTCC.Migrations
                     b.ToTable("Consulta");
                 });
 
-            modelBuilder.Entity("PetCenterPTCC.Models.ItemPedido", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<int>("PedidoId")
-                        .HasColumnType("int");
-
-                    b.Property<decimal>("PrecoUnitario")
-                        .HasColumnType("decimal(18,2)");
-
-                    b.Property<int>("ProdutoId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("Quantidade")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("PedidoId");
-
-                    b.HasIndex("ProdutoId");
-
-                    b.ToTable("ItensPedidos");
-                });
-
-            modelBuilder.Entity("PetCenterPTCC.Models.Pedido", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<DateTime>("DataPedido")
-                        .HasColumnType("datetime2");
-
-                    b.Property<int>("UsuarioId")
-                        .HasColumnType("int");
-
-                    b.Property<decimal>("ValorTotal")
-                        .HasColumnType("decimal(18,2)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Pedidos");
-                });
-
             modelBuilder.Entity("PetCenterPTCC.Models.Pet", b =>
                 {
                     b.Property<int>("PetId")
@@ -138,40 +87,6 @@ namespace PetCenterPTCC.Migrations
                     b.HasIndex("UsuarioId");
 
                     b.ToTable("Pet");
-                });
-
-            modelBuilder.Entity("PetCenterPTCC.Models.Produto", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<DateTime>("DataCadastro")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("Descricao")
-                        .HasMaxLength(500)
-                        .HasColumnType("nvarchar(500)");
-
-                    b.Property<int>("Estoque")
-                        .HasColumnType("int");
-
-                    b.Property<string>("ImagemUrl")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Nome")
-                        .IsRequired()
-                        .HasMaxLength(100)
-                        .HasColumnType("nvarchar(100)");
-
-                    b.Property<decimal>("Preco")
-                        .HasColumnType("decimal(18,2)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Produtos");
                 });
 
             modelBuilder.Entity("PetCenterPTCC.Models.Usuario", b =>
@@ -210,25 +125,6 @@ namespace PetCenterPTCC.Migrations
                     b.Navigation("PetPaciente");
                 });
 
-            modelBuilder.Entity("PetCenterPTCC.Models.ItemPedido", b =>
-                {
-                    b.HasOne("PetCenterPTCC.Models.Pedido", "Pedido")
-                        .WithMany("Itens")
-                        .HasForeignKey("PedidoId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("PetCenterPTCC.Models.Produto", "Produto")
-                        .WithMany()
-                        .HasForeignKey("ProdutoId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Pedido");
-
-                    b.Navigation("Produto");
-                });
-
             modelBuilder.Entity("PetCenterPTCC.Models.Pet", b =>
                 {
                     b.HasOne("PetCenterPTCC.Models.Usuario", "Dono")
@@ -238,11 +134,6 @@ namespace PetCenterPTCC.Migrations
                         .IsRequired();
 
                     b.Navigation("Dono");
-                });
-
-            modelBuilder.Entity("PetCenterPTCC.Models.Pedido", b =>
-                {
-                    b.Navigation("Itens");
                 });
 
             modelBuilder.Entity("PetCenterPTCC.Models.Usuario", b =>

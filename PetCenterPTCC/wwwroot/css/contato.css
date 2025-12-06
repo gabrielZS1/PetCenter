@@ -1,118 +1,107 @@
 ﻿
-﻿:root {
-    --primary-color: #FF8C00; 
-    --secondary-color: #FFFFFF; 
-    --text-color: #333; 
-    --light-bg: #FFF7EE; 
-    --dark-text: #222;
-}
-
-
-* {
+body {
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    background-color: var(--light-bg);
-    color: var(--text-color);
-    line-height: 1.6;
+    background: #f5f5f5;
 }
 
 
-header {
-    background-color: var(--primary-color);
-    color: var(--secondary-color);
-    padding: 20px 0;
-    text-align: center;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-header h1 {
-    font-size: 2.5em;
-}
-
-.container {
+.container-contato {
     max-width: 900px;
     margin: 40px auto;
-    padding: 0 20px;
+    padding: 20px;
+}
+
+  
+.container-contato header h1 {
     text-align: center;
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+    color: #ff6a00;
 }
 
 .container h2 {
-    color: var(--primary-color);
+    text-align: center;
+    font-size: 1.4rem;
     margin-bottom: 30px;
-    font-size: 1.8em;
+    color: #ff6a00; 
 }
 
-/* Cards de Contato */
+
 .contact-info {
     display: flex;
     justify-content: center;
-    gap: 30px;
-    margin-bottom: 40px;
+    gap: 20px;
     flex-wrap: wrap;
 }
 
 .contact-card {
-    background-color: var(--secondary-color);
-    border: 2px solid var(--primary-color);
-    border-radius: 15px;
-    padding: 30px;
-    width: 350px;
-    text-align: center;
     text-decoration: none;
-    color: var(--dark-text);
-    transition: transform 0.3s, box-shadow 0.3s;
+    color: #333;
+    background: white;
+    padding: 25px 20px;
+    width: 260px;
+    border-radius: 12px;
+    text-align: center;
+    border-top: 4px solid #ff6a00; 
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    transition: transform .2s ease, box-shadow .2s ease, border-color .3s ease;
 }
 
 .contact-card:hover {
-    transform: translateY(-5px); 
-    box-shadow: 0 8px 15px rgba(255, 140, 0, 0.3);
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+    border-color: #ff8c42;
 }
 
+    
 .contact-card i {
-    font-size: 3em;
-    color: var(--primary-color);
+    font-size: 2.5rem;
     margin-bottom: 10px;
+    display: block;
 }
 
-.contact-card h3 {
-    font-size: 1.5em;
-    margin-bottom: 10px;
+
+.whatsapp i {
+    color: #25D366;
 }
 
-.contact-card p {
-    margin-bottom: 15px;
+
+.email i {
+    color: #ff6a00; 
 }
+
 
 .detail-text {
-    display: block;
+    font-size: 0.9rem;
     font-weight: bold;
-    color: var(--primary-color);
-    font-size: 1.1em;
+    margin-top: 5px;
+    display: block;
+    color: #ff6a00;
 }
 
-/* Notas de Rodapé */
 
 .note {
-    font-style: italic;
-    color: var(--text-color);
-    margin-bottom: 50px;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 0.95rem;
+    color: #444;
 }
 
 
-/* Responsividade básica para telas menores */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     .contact-info {
         flex-direction: column;
         align-items: center;
     }
 
     .contact-card {
-        width: 90%;
-        max-width: 400px;
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .container-contato {
+        padding: 10px;
     }
 }
